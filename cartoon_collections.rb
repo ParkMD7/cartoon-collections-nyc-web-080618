@@ -9,7 +9,7 @@ end
 def summon_captain_planet(planeteer_calls)
   planeteer_calls = []
   planeteer_calls.collect do |capitalize_exclaim|
-    puts {#{upcase_exclaim.capitalize} + "!"}
+    puts { #{upcase_exclaim.capitalize} + "!"}
   end
 end
 
